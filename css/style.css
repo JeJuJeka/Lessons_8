@@ -1,0 +1,263 @@
+/* Шрифти */
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+/* Обнулення */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+body {
+	line-height: 1;
+}
+
+/* Налаштування */
+
+.content {
+	font-family: "Lato", sans-serif;
+	max-width: 1230px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.title__container {
+	color: #1E212C;
+}
+
+.title__container h2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+}
+
+.title {
+	margin-bottom: 40px;
+}
+
+.text__container {
+	line-height: 1.6;
+	color: #424551;
+}
+
+.text {
+	margin-bottom: 48px;
+}
+
+.titlethree {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.list__container {
+	line-height: 1.6;
+	color: #424551;
+}
+
+.listone {
+	margin-bottom: 176px;
+}
+
+.listone li {
+	background: url('../img/icons/Vector.png') 0 5px no-repeat;
+}
+
+.listone li::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 16px;
+}
+
+ul li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.titlefour {
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.titletwo {
+	margin-bottom: 16px;
+}
+
+.subtitle {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+
+.lione {
+	background: url('../img/icons/Star.png') 0 5px no-repeat;
+}
+
+.litwo {
+	background: url('../img/icons/Play.png') 0 5px no-repeat;
+}
+
+.lithree {
+	background: url('../img/icons/People.png') 0 5px no-repeat;
+}
+
+.listtwo li::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+
+.listtwo {
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+
+
+/* Доп. контент */
+
+.dz {
+	max-width: 1230px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 0, 0.4);
+	margin-bottom: 50px;
+}
+
+.dz:hover {
+	background-color: rgba(127, 255, 212, 0.4);
+}
+
+.one {
+	font-weight: 700;
+	font-size: 25px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.one:hover {
+	color: red;
+}
+
+.listthree {
+	margin-bottom: 15px;
+}
+
+.link {
+	color: rgba(0, 89, 255, 0.5);
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.link:active {
+	color: greenyellow;
+}
+
+.link:visited {
+	color: rgba(141, 2, 160, 0.3);
+}
+
+.link:focus {
+	outline: 2px solid coral;
+}
+
+ol ol {
+	margin-left: 15px;
+	display: none;
+}
+
+ol li:hover ol {
+	display: block;
+}
+
+.textdz {
+	background-color: rgb(109, 128, 0);
+	padding: 20px;
+	line-height: 1.3;
+	margin-bottom: 30px;
+}
+
+.textdz p {
+	padding-bottom: 15px;
+}
+
+.textdz p:first-child {
+	color: purple;
+}
+
+.textdz p:last-child {
+	text-transform: uppercase;
+}
+
+.textdz p:nth-child(odd) {
+	background-color: rgba(0, 140, 255, 0.8);
+}
+
+
+.elementdz {
+	margin-bottom: 30px;
+}
+
+.elements li::before {
+	background: url('../img/icons/Vector.png') 0 0 no-repeat;
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 15px;
+	transition: all 0.6s ease 0s;
+}
+
+
+.elements li:hover::before {
+	transform: rotate(360deg);
+}
